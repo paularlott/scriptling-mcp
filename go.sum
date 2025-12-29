@@ -1,0 +1,14 @@
+github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
+github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/paularlott/logger v0.3.0 h1:QwVUoxmlEFkfHI25y5dn56OJvK4Bpe3OvoJu4GZM7ng=
+github.com/paularlott/logger v0.3.0/go.mod h1:vjAOY1vUvYigmJxxQ0eMclryIjDS6VWNK6FprtTMce0=
+github.com/paularlott/mcp v0.6.12 h1:MJTcCBnFmeM+9grkeXhswiWndS1OlXdiP7U8KpawFsI=
+github.com/paularlott/mcp v0.6.12/go.mod h1:3+zKx8GaNHy5tjI1MBOgbflWTfV1eKGKziNc6Xn0pQI=
+github.com/paularlott/scriptling v0.0.0-20251229161910-b6c8b084141f h1:P5yyfI9zJHdt10Zc4MfhAErTYJiW0m3XLcd8/cfhyS0=
+github.com/paularlott/scriptling v0.0.0-20251229161910-b6c8b084141f/go.mod h1:v8t8g31EXKYS1TRBJnNlOONyF7iPwV7iAwzLQz6TTBM=
+golang.org/x/net v0.47.0 h1:Mx+4dIFzqraBXUugkia1OOvlD6LemFo1ALMHjrXDOhY=
+golang.org/x/net v0.47.0/go.mod h1:/jNxtkgq5yWUGYkaZGqo27cfGZ1c5Nen03aYrrKpVRU=
+golang.org/x/oauth2 v0.34.0 h1:hqK/t4AKgbqWkdkcAeI8XLmbK+4m4G5YeQRrmiotGlw=
+golang.org/x/oauth2 v0.34.0/go.mod h1:lzm5WQJQwKZ3nwavOZ3IS5Aulzxi68dUSgRHujetwEA=
+golang.org/x/text v0.31.0 h1:aC8ghyu4JhP8VojJ2lEHBnochRno1sgL6nEi9WGFGMM=
+golang.org/x/text v0.31.0/go.mod h1:tKRAlv61yKIjGGHX/4tP1LTbc13YSec1pxVEWXzfoeM=
