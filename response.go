@@ -93,3 +93,19 @@ func decodeTextContent(text string) object.Object {
 	// Return as plain string
 	return &object.String{Value: text}
 }
+
+// DictToMap converts a scriptling Dict to a Go map[string]interface{}.
+// This is a convenience wrapper around scriptlib.ToGo for the common case
+// of converting Dict arguments for tool calls.
+func DictToMap(dict *object.Dict) map[string]interface{} {
+	if dict == nil {
+		return nil
+	}
+
+	result := make(map[string]interface{}, len(dict.Pairs))
+	for _, pair := range dict.Pairs {
+		key := pair.Key.(*object.String).Value
+		result[key] = scriptlib.ToGo(pair.Value)
+	}
+	return result
+}
